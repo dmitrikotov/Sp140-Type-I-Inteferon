@@ -6,4 +6,4 @@ Clean Analysis.R - describes how the data was analyzed using Seurat. This code a
 
 Code for Graphing Figures.R - describes the code used to generate the figures in the manuscript.
 
-Khader NHP 2021.R - describes how I reanalyzed data from GSE149758 from Esaulova E., et al. 2021.
+Khader NHP 2021.R - describes how I reanalyzed data from GSE149758 from Esaulova E., et al. 2021 and contains the code for creating the plot in Figure 3D.
