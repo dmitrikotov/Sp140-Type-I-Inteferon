@@ -211,14 +211,14 @@ plot <- DimPlot(immune.combined, reduction = "wnn.umap", label = TRUE)
 
 #Name the various clusters
 immune.combined <- RenameIdents(immune.combined, `0` = "Nos2 Neut", `1` = "Act Neut", `2` = "Neut", 
-                                `3` = "Neut", `4` = "AM", `5` = "Aged Neut", `6` = "Aged Neut", `7` = "mNeut", `8` = "mNeut", `9` = "IM", 
-                                `10` = "Mono", `11` = "ISG IM", `12` = "Inflam Mono", `13` = "ISG Neut",`14` = "SigF Neut",`15` = "CD16-2 Mono",
+                                `3` = "Neut", `4` = "AM", `5` = "Aged Neut", `6` = "Aged Neut", `7` = "Mature Neut", `8` = "Mature Neut", `9` = "IM", 
+                                `10` = "Mono", `11` = "ISG IM", `12` = "Inflam Mono", `13` = "ISG Neut",`14` = "Siglec F Neut",`15` = "CD16-2 Mono",
                                 `16` = "CD63 Neut",`17` = "CD63 Neut",`18` = "Mmp8 Neut",`19` = "Int Mono",`20` = "Lyve1 IM",`21` = "Int Mono",`22` = "Stfa Neut",
                                 `23` = "DC",`24` = "B cell",`25` = "Basophil",`26` = "Cycling AM",`27`="Aged Neut")
 
 #Re-order clusters to group related cell types
 levels(x = immune.combined) <- c("Basophil","B cell","DC","AM","Cycling AM","Mono","Int Mono","Inflam Mono","CD16-2 Mono","Lyve1 IM","IM","IFN IM",
-                                 "Neut","SigF Neut","Mmp8 Neut","Stfa Neut","mNeut","Act Neut","Aged Neut","ISG Neut","Nos2 Neut","CD63 Neut")
+                                 "Neut","Siglec F Neut","Mmp8 Neut","Stfa Neut","Mature Neut","Act Neut","Aged Neut","ISG Neut","Nos2 Neut","CD63 Neut")
 
 plot <- DimPlot(immune.combined, reduction = "wnn.umap", label = TRUE, repel = TRUE)
 
