@@ -1,4 +1,4 @@
-# Sp140-Type-I-Inteferon
+# Sp140 KO as a model for type I inteferon-driven TB susceptibility.
 Code in this repository was used to analyze single cell RNA-seq data in the manuscript titled "Cellular sources and targets of type I interferons that drive susceptibility to tuberculosis"
 
 File descriptions:
