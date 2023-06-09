@@ -2,6 +2,7 @@
 Code in this repository was used to analyze single cell RNA-seq data in the manuscript titled "Cellular sources and targets of type I interferons that drive susceptibility to tuberculosis"
 
 File descriptions:
+
 Clean Analysis.R - describes how the data was analyzed using Seurat. This code also includes defining and classifying cells based on the type I interferon and type II interferon gene signature.
 
 Code for Graphing Figures.R - contains the code used to generate the figures in the manuscript.
